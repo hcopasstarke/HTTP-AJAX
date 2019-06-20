@@ -1,0 +1,11 @@
+.App {
+    font-family: 'Open Sans';
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight:  bolder; 
+    color: rgb(76, 124, 241);
+  }

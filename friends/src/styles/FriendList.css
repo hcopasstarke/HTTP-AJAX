@@ -1,0 +1,58 @@
+.friend-list {
+	width: 730px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+@media (min-width: 750px) {
+	.friend-list {
+		width: auto;
+	}
+}
+
+@media (min-width: 900px) {
+	.friend-list {
+		width: 880px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.table-list {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.button-sort {
+	width: 115%;
+	margin-left: -5%;
+	margin-right: -5%;
+}
+
+.button-success,
+.button-error,
+.button-tertiary,
+.button-secondary {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+	background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+	background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-tertiary {
+	background: rgb(28, 124, 155); /* this is a turquoise */
+}
+
+.button-secondary {
+	background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+.input {
+	width: 100%;
+}
